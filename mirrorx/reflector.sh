@@ -1,6 +1,5 @@
 #!/bin/bash
-
-set -e -u
+#set -e -u
 
 echo "#########################"
 echo "##### SETUP MIRRORX #####"
