@@ -1,3 +1,5 @@
+inetutils
+#############################
 alsa-utils
 android-tools
 ant-dracula-gtk-theme
