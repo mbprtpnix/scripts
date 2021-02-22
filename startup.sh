@@ -4,12 +4,24 @@ pacman \
     -Syyu \
     --needed \
     --noconfirm \
+    reflector \
+    python \
+
+reflector \
+    --latest 5 \
+    --age 6 \
+    --protocol https \
+    --sort rate \
+    --save /etc/pacman.d/mirrorlist
+
+pacman \
+    -Syyu \
+    --needed \
+    --noconfirm \
     base-devel \
     screen \
     tmux \
-    reflector \
     bash-completion \
-    python \
     neovim \
     vim \
     git \
@@ -22,10 +34,3 @@ pacman \
     devtools \
     archiso \
     pacman-contrib
-
-reflector \
-    --latest 5 \
-    --age 6 \
-    --protocol https \
-    --sort rate \
-    --save /etc/pacman.d/mirrorlist
