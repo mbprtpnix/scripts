@@ -5,6 +5,8 @@ pacman \
     --needed \
     --noconfirm \
     base-devel \
+    screen \
+    tmux \
     reflector \
     bash-completion \
     python \
