@@ -4,6 +4,7 @@ pacman \
     -Syyu \
     --needed \
     --noconfirm \
+    base-devel \
     reflector \
     bash-completion \
     python \
