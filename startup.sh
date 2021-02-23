@@ -34,8 +34,3 @@ pacman \
     devtools \
     archiso \
     pacman-contrib
-
-mkdir $HOME/chroot
-CHROOT=$HOME/chroot
-mkarchroot $CHROOT/root base-devel
-arch-nspawn $CHROOT/root pacman -Syu
