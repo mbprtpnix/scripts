@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pacman \
-    -Syyu \
+    -Syy \
     --needed \
     --noconfirm \
     reflector \
