@@ -33,4 +33,6 @@ pacman \
     htop \
     devtools \
     archiso \
-    pacman-contrib
+    pacman-contrib \
+    docker \
+    docker-compose
