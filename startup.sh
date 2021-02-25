@@ -34,5 +34,4 @@ pacman \
     devtools \
     archiso \
     pacman-contrib \
-    docker \
-    docker-compose
+    wireguard-tools
